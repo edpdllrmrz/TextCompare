@@ -1,7 +1,7 @@
 """
-This is another version of the compare text app:
+***Final Version to the tkinter GUI Application***
 
-
+Text Compare: 
 """
 
 import tkinter as tk
@@ -55,7 +55,7 @@ class TextComparerApp:
         # Clear button
         self.clear_button = tk.Button(root, activebackground="#ff3333", activeforeground="White", text="Clear Everything", command=self.clear_all)
         self.clear_button.pack()
-
+    
     def upload_file1(self):
         file_path = filedialog.askopenfilename()
         if file_path:
